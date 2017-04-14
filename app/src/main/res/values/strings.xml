@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Crazy Math</string>
+    <string name="best_score" formated="false">BEST SCORE: %1$s</string>
+    <string name="crazy_match_game">CRAZY MATCH\nGAME</string>
+    <string name="score" formated="false">Score: %1$s</string>
+    <string name="best" formated="false">Best: %1$s</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#37384D"
+    >
+    <TextView
+        android:id="@+id/txtGameOver"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Game Over"
+        android:textSize="50sp"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#A4404E"
+        />
+    <TextView
+        android:id="@+id/txtYS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Your Score"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtYourScore"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:text="X"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btnTryAgain"
+        android:layout_height="@dimen/btn_height"
+        android:layout_width="@dimen/btn_width"
+        android:background="@drawable/btn_play"
+        android:text="Try Again"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_height="@dimen/btn_height"
+        android:layout_width="@dimen/btn_width"
+        android:background="@drawable/btn_more"
+        android:text="Home"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>
